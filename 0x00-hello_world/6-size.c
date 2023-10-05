@@ -5,6 +5,7 @@
  * Return: 0 on success
  */
 int main(void)
+
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
 	printf("size of char: %zu byte(s)\n", sizeof(int));
