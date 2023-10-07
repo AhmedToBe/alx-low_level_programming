@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Determines if a nuumber is positive, negative or zero.
+ *main - Determines if a nuumber is positive, negative or zero.
  *
- * Return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -26,4 +26,3 @@ int main(void)
 	}
 	return (0);
 }
-
