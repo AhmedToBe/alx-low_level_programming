@@ -1,17 +1,17 @@
-#include <stdlib.h>
-#include <time.h>
+#include <stdio.h>
 /**
- * main - finction main is the function.
- *
- * Return: always (0)
- **/
-
+* main - Entry point
+*
+* Return: Always 0 (success)
+*/
 int main(void)
 
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+char alp[] = "abcdefghijklmnopqrstuvwxyz";
+for (int i = 0; alp[i] != '\0'; i++)
+	{
+	printf("%c ", alp[i]);
+	}
+	printf("\n");
 	return (0);
 }
