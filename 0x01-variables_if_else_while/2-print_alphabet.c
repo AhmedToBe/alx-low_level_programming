@@ -11,7 +11,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-	printf("%s", alp[i]);
+	printf("%c", alp[i]);
 	}
 	printf("\n");
 	return (0);
