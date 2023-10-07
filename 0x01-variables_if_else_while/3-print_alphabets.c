@@ -7,11 +7,24 @@
 int main(void)
 
 {
-char alp[] = "abcdefghijklmnopqrstuvwxyz";
-for (int i = 0; alp[i] != '\0'; i++)
-	{
-	printf("%c ", alp[i]);
-	}
-	printf("\n");
+	char c;
+
+	char d;
+
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'z')
+		{
+			putchar(c);
+			c++;
+		}
+	while
+		(d <= 'Z')
+		{
+			putchar (d);
+			d++
+		}
+	putchar ('\n');
 	return (0);
 }
