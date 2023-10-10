@@ -1,4 +1,4 @@
-#include "main.ih"
+#include "main.h"
 /**
  * numLength - returns the length of string
  *
